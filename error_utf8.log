@@ -1,0 +1,61 @@
+﻿node.exe : [33mYou 
+are using Node.js 
+22.6.0. Vite requires 
+Node.js version 20.19+ 
+or 22.12+. Please 
+upgrade your Node.js 
+version.[39m
+At C:\Program Files\nod
+ejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([33mYou are    
+ us...s version.[3    
+9m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 39 modules transformed.
+[31mΓ£ù[39m Build 
+failed in 2.92s
+[31merror during 
+build:
+[31mCould not resolve 
+"../contexts/AuthContex
+t" from "src/pages/Vide
+oDetail.jsx"[31m
+file: [36mC:/Users/sab
+es/OneDrive/Desktop/pro
+j/src/pages/VideoDetail
+.jsx[31m
+    at getRollupError (
+file:///C:/Users/sabes/
+OneDrive/Desktop/proj/n
+ode_modules/rollup/dist
+/es/shared/parseAst.js:
+402:41)
+    at error (file:///C
+:/Users/sabes/OneDrive/
+Desktop/proj/node_modul
+es/rollup/dist/es/share
+d/parseAst.js:398:42)
+    at ModuleLoader.han
+dleInvalidResolvedId (f
+ile:///C:/Users/sabes/O
+neDrive/Desktop/proj/no
+de_modules/rollup/dist/
+es/shared/node-entry.js
+:21710:24)
+    at file:///C:/Users
+/sabes/OneDrive/Desktop
+/proj/node_modules/roll
+up/dist/es/shared/node-
+entry.js:21670:26[39m
